@@ -1,0 +1,71 @@
+    java = linguaggio tipizzato, significa che la variabile deve essere dichiarata
+    es. int x = 1;
+
+    _________________________________________________________
+
+    variabili = contenitori di dati situati in locazioni di memoria
+    caratterizzato da un nome
+    caratterizzato da un tipo di dato ( stringa, intero)
+
+    Tipi primitivi o Oggetti
+
+    Primitivi: Pass by value
+                int a = 1;
+                char c = 'a';
+                sono indipendenti
+                non è composto da altri tipo di dati
+
+    8 tipi di primitivi:
+
+    4 numerici
+        byte = 2 bit (minimo -128 e massimo 127)
+        short = 16 bit
+        int = 32 bit (minimo -2^31 e massimo 2^32 -1)
+        long =  64 bit
+    2 decimali
+        float = 32 bit decimale
+        double = 64 bit decimale
+
+        boolean = 1 bit, Vero o Falso
+        char = carattere unicode da 16 bit
+
+    tipo String ----(non primitivo perchè ha i metodi ma viene trattata come primitiva)
+
+
+
+    Oggetti: Pass by reference
+            metodi di default della classe Object
+
+
+
+    _________________________________________________________
+
+    costanti = valore che non cambia
+    es. final int costante = 31;
+
+    _________________________________________________________
+
+    Operatori
+    Logici
+    AND && (entrambe vere)
+    OR || (almeno una vera)
+
+    Operatori di incremento
+    x++ (aumenta di 1)
+    x-- (diminuisce di 1)
+
+    Operatori relazionali
+    == (è uguale)
+    != (non è uguale)
+    > maggiore
+    >= maggiore uguale
+    < minore
+    <= minore uguale
+
+     _________________________________________________________
+
+    Dichiarazione viene dichiarata con il tipo ma senza valore int x;
+
+    Assegnazione del valore    x = 1;
+
+    Inizializzazione  dichiarazione e assegnazione int x = 1;
