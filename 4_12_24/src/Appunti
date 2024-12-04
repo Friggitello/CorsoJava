@@ -1,0 +1,125 @@
+4 Dicembre 2024 - Remoto
+------------------------------------------
+Costrutti condizionali
+
+if (a maggiore b)
+{
+    max = a;
+    min = b;
+}
+else
+{
+    min = a;
+    max = b;
+}
+
+Condizioni booleane - True or false
+Se la condizione è vera entra nel blocco del if e lo eseguirà
+se invece non dovesse essere vera si entra nel blocco else
+
+Se si entra in un blocco non si puo entrare nell'altro
+
+if (a maggiore b)           Se nel blocco c'è solo una riga di codice
+    max = a;                non c'è bisogno delle graffe.
+-------------------------------------------
+Operatore ternario
+
+max = a maggiore b ? a : b;
+
+Se a è maggiore di b allora il valore di max è a
+se no il valore è b.
+
+Permette di scrivere una if else in cui i blocchi avevano solo una riga di codice
+in maniera molto piu sintetica e rapida
+
+Quindi serve per assegnare variabili che dipendono da una condizione
+---------------------------------------------------
+If a cascata
+
+Si possono inserire if dentro altri if
+
+if (a maggiore 5)
+    if (a maggiore 20)
+        if (a maggiore 500)
+
+        else
+    else
+else
+-------------------------------------------------
+Switch
+
+Scegliere quale codice seguire in base al valore di un variabile
+
+switch (a){
+    case 1:
+        sout;
+        break;
+    case 2:
+        sout;
+        break;
+    default:
+        sout;
+        break;
+}
+
+Ricordare il default
+-----------------------------------------------------
+Iterazione
+
+Ciclo while
+while (f1 maggiore 0)
+{
+    f1--;
+}
+
+Finchè la condizione è vera
+il blocco diminuisce f1 di 1 fino a quando f1 è uguale o minore a 0
+
+Se fosse f1++ aumenterebbe all'infinito in loop
+
+Per creare un loop infinito si può scrivere
+while (True){
+
+}
+
+Si possono usare i while true quando si è in attesa di qualsiasi cosa
+es. Arrivi un segnale
+    Che il download finisca
+    Che ritorni online
+
+Controlla la condizione di uscita prima di eseguire il codice
+------------------------------------------------------
+Ciclo for
+
+Dichiarazione variabile - Condizione di uscita - Incremento/Decremento
+
+for (int i=0; i minore 10; i++)
+{
+    sout(2 * (i+1));
+}
+
+Partendo da i = 0, fino a quando i non arriva a 10, i aumenta di 1
+ed esegue il blocco che printa 2 * il valore di i+1
+------------------------------------------------------
+Do while
+
+Controlla la condizione di uscita dopo l'esecuzione del codice
+Almeno la prima iterazione viene sempre eseguita anche se la condizione
+è falsa
+-----------------------------------------------------
+Continue e break
+
+Continue skippa alla prossima iterazione
+if (i minore 10)
+    continue;
+se i è minore di 10 passa direttamente al prossimo i senza eseguire altro
+
+Break invece interrompe il ciclo e passa al blocco successivo
+-----------------------------------------------------
+While
+- quando non conoscete quante volte il ciclo deve essere ripetuto
+For
+-Utilizzare se sapete quante volte il ciclo va ripetuto
+Do While
+-Come il while ma volete almeno che venga eseguita la prima iterazione
+------------------------------------------------------

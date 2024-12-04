@@ -21,7 +21,11 @@ public class Calcolatrice {
         System.out.println("Scegliere l'operazione tra\nSomma +\nSottrazione -\nMoltiplicazione *\nDivisione /\nResto %\n");
 
         String sceltaOperatore = input.next();
-        //
+
+        // Versione con if
+
+        /*
+
         if (sceltaOperatore.equals("+")){
             int somma = primoNumero + secondoNumero;
             System.out.println(primoNumero + " + " + secondoNumero + " = " + somma);
@@ -40,6 +44,37 @@ public class Calcolatrice {
         } else {
             System.out.println("Riprova");
             calcolatrice();
+        }
+
+         */
+
+        //Versione con swtich
+
+        switch (sceltaOperatore){
+            case "+":
+                int somma = primoNumero + secondoNumero;
+                System.out.println(somma);
+                break;
+            case "-":
+                int sottrazione = primoNumero - secondoNumero;
+                System.out.println(sottrazione);
+                break;
+            case "*":
+                int moltiplicazione = primoNumero * secondoNumero;
+                System.out.println(moltiplicazione);
+                break;
+            case "/":
+                int divisione = primoNumero / secondoNumero;
+                System.out.println(divisione);
+                break;
+            case "%":
+                int resto = primoNumero % secondoNumero;
+                System.out.println(resto);
+                break;
+            default:
+                System.out.println("Errore");
+                calcolatrice();
+                break;
         }
     }
 
