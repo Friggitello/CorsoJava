@@ -135,3 +135,4 @@ Crea un array di interi vuoto lungo 5 valori
 arrayInteri[0] = 2;
 
 Bisogna sempre indicare la grandezza dell'array e non si puo cambiare
+---------------------------------------------------------
