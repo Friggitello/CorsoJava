@@ -123,3 +123,15 @@ For
 Do While
 -Come il while ma volete almeno che venga eseguita la prima iterazione
 ------------------------------------------------------
+Array
+
+Sequenze ordinate di oggetti che hanno un indice e un valore
+
+int [] arrayInteri = new int[5];
+
+Parentesi quadre indicano un array
+Crea un array di interi vuoto lungo 5 valori
+
+arrayInteri[0] = 2;
+
+Bisogna sempre indicare la grandezza dell'array e non si puo cambiare
