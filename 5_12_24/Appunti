@@ -1,2 +1,8 @@
 5 Dicembre 2024 - Presenza
 ----------------------------
+Matrici
+Array multidimensionali
+
+int[][] matrice = new int [5][10];
+
+In questo caso stiamo creando una matrice 5*10
