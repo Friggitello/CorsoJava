@@ -15,6 +15,12 @@ Test: fibonacci(45) deve stampare 1134903170
  */
     public static int fibonacci(int input){
         //Creazione dell'array lungo N numeri (+1 perchè l'array parte da 0)
+        if (input < 0){
+            System.out.println("Il numero non puo essere negativo, tentativo col numero positivo:\n");
+            input = Math.abs(input);
+        }
+
+
         int[] array = new int[input+1];
         //Assegnazione dei primi 2 valori per definizione
         array[0] = 0;

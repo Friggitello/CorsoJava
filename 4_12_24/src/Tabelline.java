@@ -19,7 +19,7 @@ crea un array lungo m che in ogni cella ha il valore di indice della cella molti
     }
 
     public static void main(String[] args) {
-        String risultato = Arrays.toString(tabelline(243,20));
+        String risultato = Arrays.toString(tabelline(5,10));
         System.out.println(risultato);
     }
 }
